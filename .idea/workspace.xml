@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1253068d-69f0-48c3-844c-aec99d41ff8d" name="Changes" comment="7 Apr">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/testdata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/end2end/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/end2end/test_e2e.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_sample_for_diff_web_elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/sample/test_selenium_alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_alerts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +42,7 @@
     "Python tests.Python tests for payload_manager.test_payload_create_token.executor": "Run",
     "Python tests.Python tests for test_e2e.TestE2E.test_update_booking_with_id_token.executor": "Run",
     "Python tests.Python tests for test_sample.test_sample.executor": "Run",
+    "Python tests.Python tests for test_selenium_alerts.test_selenium_alert.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -76,7 +55,7 @@
       <recent name="C:\Users\hp\PycharmProjects\AutomationFramework\src\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_e2e.TestE2E.test_update_booking_with_id_token">
+  <component name="RunManager" selected="Python tests.Python tests for test_selenium_alerts.test_selenium_alert">
     <configuration name="Python tests for payload_manager.test_payload_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
@@ -122,8 +101,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_selenium_alerts.test_selenium_alert" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_selenium_alerts.test_selenium_alert&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_selenium_alerts.test_selenium_alert" />
         <item itemvalue="Python tests.Python tests for test_e2e.TestE2E.test_update_booking_with_id_token" />
         <item itemvalue="Python tests.Python tests for payload_manager.test_payload_create_token" />
         <item itemvalue="Python tests.Python tests for src.sample.test_sample.test_sample" />
@@ -154,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744047953528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="7 Apr">
+      <option name="closed" value="true" />
+      <created>1744696031865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744696031865</updated>
+    </task>
+    <task id="LOCAL-00003" summary="7 Apr">
+      <option name="closed" value="true" />
+      <created>1744696154320</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744696154320</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
