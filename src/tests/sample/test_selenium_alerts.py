@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 @allure.title("ALerts")
-@allure.description("Verify JS Alerts")
+@allure.description("Verify JS Alert")
 def test_selenium_alert():
     driver=webdriver.Chrome()
     driver.get("https://the-internet.herokuapp.com/javascript_alerts")
