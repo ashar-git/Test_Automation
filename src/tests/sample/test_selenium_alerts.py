@@ -43,7 +43,7 @@ def test_selenium_js_prompt():
     element_prompt.click()
     WebDriverWait(driver=driver,timeout=3).until(EC.alert_is_present())
     alert = driver._switch_to.alert
-    alert.send_keys("ahmad")
+    alert.send_keys("waquar")
     alert.accept()
     result_text = driver.find_element(By.ID,"result").text
     assert result_text == "You entered: ahmad"
