@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1253068d-69f0-48c3-844c-aec99d41ff8d" name="Changes" comment="7 Apr">
+    <list default="true" id="1253068d-69f0-48c3-844c-aec99d41ff8d" name="Changes" comment="15 Apr">
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_JS_Confirm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_JS_Prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_JS_alerts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/sample/test_selenium_alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_alerts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/sample/test_selenium_alerts.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +46,12 @@
     "Python tests.Python tests for test_e2e.TestE2E.test_update_booking_with_id_token.executor": "Run",
     "Python tests.Python tests for test_sample.test_sample.executor": "Run",
     "Python tests.Python tests for test_selenium_alerts.test_selenium_alert.executor": "Run",
+    "Python tests.Python tests for test_selenium_alerts.test_selenium_alert2.executor": "Run",
+    "Python tests.Python tests for test_selenium_alerts.test_selenium_alert3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/hp/PycharmProjects/AutomationFramework"
+    "last_opened_file_path": "C:/Users/hp/PycharmProjects/WebAutomationFramework"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,7 +60,7 @@
       <recent name="C:\Users\hp\PycharmProjects\AutomationFramework\src\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_selenium_alerts.test_selenium_alert">
+  <component name="RunManager">
     <configuration name="Python tests for payload_manager.test_payload_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
@@ -71,18 +76,78 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for src.sample.test_sample.test_sample" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for src.tests.sample.test_JS_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/sample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.sample.test_sample.test_sample&quot;" />
+      <option name="_new_target" value="&quot;src.tests.sample.test_JS_alerts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.tests.sample.test_JS_alerts.test_selenium_alert2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.tests.sample.test_JS_alerts.test_selenium_alert2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.tests.sample.test_selenium_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.tests.sample.test_selenium_alerts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.tests.sample.test_selenium_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.tests.sample.test_selenium_alerts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.tests.sample.test_selenium_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.tests.sample.test_selenium_alerts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -101,27 +166,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_selenium_alerts.test_selenium_alert" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="AutomationFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/sample" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_selenium_alerts.test_selenium_alert&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_selenium_alerts.test_selenium_alert" />
+        <item itemvalue="Python tests.Python tests for src.tests.sample.test_selenium_alerts" />
+        <item itemvalue="Python tests.Python tests for src.tests.sample.test_selenium_alerts" />
+        <item itemvalue="Python tests.Python tests for src.tests.sample.test_selenium_alerts" />
         <item itemvalue="Python tests.Python tests for test_e2e.TestE2E.test_update_booking_with_id_token" />
         <item itemvalue="Python tests.Python tests for payload_manager.test_payload_create_token" />
-        <item itemvalue="Python tests.Python tests for src.sample.test_sample.test_sample" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +216,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744696154320</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="15 Apr">
+      <option name="closed" value="true" />
+      <created>1744697162020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744697162021</updated>
+    </task>
+    <task id="LOCAL-00005" summary="15 Apr">
+      <option name="closed" value="true" />
+      <created>1744697226507</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744697226507</updated>
+    </task>
+    <task id="LOCAL-00006" summary="15 Apr">
+      <option name="closed" value="true" />
+      <created>1744697248612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744697248612</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -173,6 +248,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="7 Apr" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 Apr" />
+    <MESSAGE value="15 Apr" />
+    <option name="LAST_COMMIT_MESSAGE" value="15 Apr" />
   </component>
 </project>
