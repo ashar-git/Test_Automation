@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1253068d-69f0-48c3-844c-aec99d41ff8d" name="Changes" comment="15 Apr">
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_JS_Confirm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_JS_Prompt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_JS_alerts.py" afterDir="false" />
+    <list default="true" id="1253068d-69f0-48c3-844c-aec99d41ff8d" name="Changes" comment="16 Apr">
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/staleElementException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_dropdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_svg_part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_svg_part2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_web_tables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/sample/test_selenium_alerts.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +45,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for payload_manager.test_payload_create_token.executor": "Run",
+    "Python tests.Python tests for staleElementException.test_selenium_exceptions.executor": "Run",
     "Python tests.Python tests for test_e2e.TestE2E.test_update_booking_with_id_token.executor": "Run",
     "Python tests.Python tests for test_sample.test_sample.executor": "Run",
     "Python tests.Python tests for test_selenium_alerts.test_selenium_alert.executor": "Run",
     "Python tests.Python tests for test_selenium_alerts.test_selenium_alert2.executor": "Run",
     "Python tests.Python tests for test_selenium_alerts.test_selenium_alert3.executor": "Run",
+    "Python tests.Python tests for test_selenium_dropdown.test_selenium_dropdown.executor": "Run",
+    "Python tests.Python tests for test_selenium_exceptions.test_selenium_exceptions.executor": "Run",
+    "Python tests.Python tests for test_selenium_svg_part1.test_selenium_svg.executor": "Run",
+    "Python tests.Python tests for test_selenium_svg_part1.test_seleniumsvg.executor": "Run",
+    "Python tests.Python tests for test_selenium_svg_part2.test_selenium_svg.executor": "Run",
+    "Python tests.Python tests for test_selenium_web_tables.test_find_web_table_element_using_tr_td.executor": "Run",
+    "Python tests.Python tests for test_selenium_web_tables.test_web_tables.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -60,23 +70,8 @@
       <recent name="C:\Users\hp\PycharmProjects\AutomationFramework\src\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Python tests for payload_manager.test_payload_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="AutomationFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/helpers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;payload_manager.test_payload_create_token&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for src.tests.sample.test_JS_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_selenium_web_tables.test_find_web_table_element_using_tr_td">
+    <configuration name="Python tests for staleElementException.test_selenium_exceptions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,11 +82,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.tests.sample.test_JS_alerts&quot;" />
+      <option name="_new_target" value="&quot;staleElementException.test_selenium_exceptions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for src.tests.sample.test_JS_alerts.test_selenium_alert2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_selenium_exceptions.test_selenium_exceptions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,11 +97,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.tests.sample.test_JS_alerts.test_selenium_alert2&quot;" />
+      <option name="_new_target" value="&quot;test_selenium_exceptions.test_selenium_exceptions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for src.tests.sample.test_selenium_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_selenium_svg_part2.test_selenium_svg" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,11 +112,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.tests.sample.test_selenium_alerts&quot;" />
+      <option name="_new_target" value="&quot;test_selenium_svg_part2.test_selenium_svg&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for src.tests.sample.test_selenium_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_selenium_web_tables.test_find_web_table_element_using_tr_td" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +127,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.tests.sample.test_selenium_alerts&quot;" />
+      <option name="_new_target" value="&quot;test_selenium_web_tables.test_find_web_table_element_using_tr_td&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for src.tests.sample.test_selenium_alerts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_selenium_web_tables.test_web_tables" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,32 +142,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.tests.sample.test_selenium_alerts&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_e2e.TestE2E.test_update_booking_with_id_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="AutomationFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/end2end" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_e2e.TestE2E.test_update_booking_with_id_token&quot;" />
+      <option name="_new_target" value="&quot;test_selenium_web_tables.test_web_tables&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for src.tests.sample.test_selenium_alerts" />
-        <item itemvalue="Python tests.Python tests for src.tests.sample.test_selenium_alerts" />
-        <item itemvalue="Python tests.Python tests for src.tests.sample.test_selenium_alerts" />
-        <item itemvalue="Python tests.Python tests for test_e2e.TestE2E.test_update_booking_with_id_token" />
-        <item itemvalue="Python tests.Python tests for payload_manager.test_payload_create_token" />
+        <item itemvalue="Python tests.Python tests for test_selenium_web_tables.test_find_web_table_element_using_tr_td" />
+        <item itemvalue="Python tests.Python tests for test_selenium_web_tables.test_web_tables" />
+        <item itemvalue="Python tests.Python tests for staleElementException.test_selenium_exceptions" />
+        <item itemvalue="Python tests.Python tests for test_selenium_exceptions.test_selenium_exceptions" />
+        <item itemvalue="Python tests.Python tests for test_selenium_svg_part2.test_selenium_svg" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744697248612</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="16 Apr">
+      <option name="closed" value="true" />
+      <created>1744768295281</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744768295281</updated>
+    </task>
+    <task id="LOCAL-00008" summary="16 Apr">
+      <option name="closed" value="true" />
+      <created>1744768352366</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744768352366</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -249,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="7 Apr" />
     <MESSAGE value="15 Apr" />
-    <option name="LAST_COMMIT_MESSAGE" value="15 Apr" />
+    <MESSAGE value="16 Apr" />
+    <option name="LAST_COMMIT_MESSAGE" value="16 Apr" />
   </component>
 </project>
