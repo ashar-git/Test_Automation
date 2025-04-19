@@ -33,5 +33,5 @@ def test_verify_mmt_actions():
      .send_keys_to_element(fromcity,"del")
      .key_down(Keys.ARROW_DOWN)
      .key_down(Keys.ENTER).perform())
-    time.sleep(10)
+    time.sleep(5)
     driver.quit()
