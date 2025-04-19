@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1253068d-69f0-48c3-844c-aec99d41ff8d" name="Changes" comment="16 Apr">
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/staleElementException.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_dropdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_svg_part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_svg_part2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_web_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_selenium_action_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +43,9 @@
     "Python tests.Python tests for staleElementException.test_selenium_exceptions.executor": "Run",
     "Python tests.Python tests for test_e2e.TestE2E.test_update_booking_with_id_token.executor": "Run",
     "Python tests.Python tests for test_sample.test_sample.executor": "Run",
+    "Python tests.Python tests for test_selenium_action_class.test_verify_keyboard_actions.executor": "Run",
+    "Python tests.Python tests for test_selenium_action_class.test_verify_mouse_actions.executor": "Run",
+    "Python tests.Python tests for test_selenium_action_class.test_verify_mouse_click_and_hold.executor": "Run",
     "Python tests.Python tests for test_selenium_alerts.test_selenium_alert.executor": "Run",
     "Python tests.Python tests for test_selenium_alerts.test_selenium_alert2.executor": "Run",
     "Python tests.Python tests for test_selenium_alerts.test_selenium_alert3.executor": "Run",
@@ -70,8 +68,8 @@
       <recent name="C:\Users\hp\PycharmProjects\AutomationFramework\src\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_selenium_web_tables.test_find_web_table_element_using_tr_td">
-    <configuration name="Python tests for staleElementException.test_selenium_exceptions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_selenium_action_class.test_verify_mouse_click_and_hold">
+    <configuration name="Python tests for test_selenium_action_class.test_verify_keyboard_actions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,11 +80,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;staleElementException.test_selenium_exceptions&quot;" />
+      <option name="_new_target" value="&quot;test_selenium_action_class.test_verify_keyboard_actions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_selenium_exceptions.test_selenium_exceptions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_selenium_action_class.test_verify_mouse_actions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +95,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_selenium_exceptions.test_selenium_exceptions&quot;" />
+      <option name="_new_target" value="&quot;test_selenium_action_class.test_verify_mouse_actions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_selenium_svg_part2.test_selenium_svg" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_selenium_action_class.test_verify_mouse_click_and_hold" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,7 +110,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_selenium_svg_part2.test_selenium_svg&quot;" />
+      <option name="_new_target" value="&quot;test_selenium_action_class.test_verify_mouse_click_and_hold&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_selenium_action_class.test_verify_mouse_click_and_hold" />
+        <item itemvalue="Python tests.Python tests for test_selenium_action_class.test_verify_mouse_actions" />
+        <item itemvalue="Python tests.Python tests for test_selenium_action_class.test_verify_keyboard_actions" />
         <item itemvalue="Python tests.Python tests for test_selenium_web_tables.test_find_web_table_element_using_tr_td" />
         <item itemvalue="Python tests.Python tests for test_selenium_web_tables.test_web_tables" />
-        <item itemvalue="Python tests.Python tests for staleElementException.test_selenium_exceptions" />
-        <item itemvalue="Python tests.Python tests for test_selenium_exceptions.test_selenium_exceptions" />
-        <item itemvalue="Python tests.Python tests for test_selenium_svg_part2.test_selenium_svg" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744768352366</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="16 Apr">
+      <option name="closed" value="true" />
+      <created>1744946720894</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744946720894</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
